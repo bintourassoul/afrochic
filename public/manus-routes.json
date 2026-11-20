@@ -1,0 +1,11 @@
+{
+  "routes": [
+    { "path": "/", "title": "Accueil — Afro Chic Studio" },
+    { "path": "/coiffure", "title": "Coiffure — Afro Chic Studio" },
+    { "path": "/maquillage", "title": "Maquillage — Afro Chic Studio" },
+    { "path": "/tarifs", "title": "Tarifs — Afro Chic Studio" },
+    { "path": "/galerie", "title": "Galerie — Afro Chic Studio" },
+    { "path": "/a-propos", "title": "À propos — Afro Chic Studio" },
+    { "path": "/contact", "title": "Contact — Afro Chic Studio" }
+  ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0a" />
+    <meta name="description" content="Afro Chic Studio — coiffure et maquillage professionnel pour révéler votre beauté." />
+    <title>Afro Chic Studio — Beauté, précision, caractère</title>
+    <link rel="icon" href="/images/branding/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header id="site-header"></header>
+      <main id="app" tabindex="-1"></main>
+      <footer id="site-footer"></footer>
+    </div>
+
+    <div class="modal" id="booking-modal" hidden aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+        <button class="modal__close" type="button" data-close-modal aria-label="Fermer">×</button>
+        <div class="eyebrow">Votre moment, notre attention</div>
+        <h2 id="booking-title">Prendre rendez-vous</h2>
+        <p class="modal__intro">Choisissez votre univers. Nous vous répondrons sur WhatsApp avec toute la douceur et la précision qui font notre signature.</p>
+        <div id="modal-booking-form"></div>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+      <button class="lightbox__close" type="button" data-close-lightbox aria-label="Fermer l’image">×</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Image précédente">‹</button>
+      <figure class="lightbox__figure">
+        <img id="lightbox-image" src="" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Image suivante">›</button>
+    </div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
